@@ -11,7 +11,7 @@ export default function Landing() {
           <h1>This is me...</h1>
         </div>
         <div id="profile_photo" class="mt-3">
-          <img src={portfolio_image} alt="profile photo" />
+          <img src={portfolio_image} alt="Anthony Alvarez" />
         </div>
         <div>
           <p>
