@@ -13,7 +13,7 @@ export default function NavigationBar(){
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Cysec">Cyber Security</Nav.Link>
-            <Nav.Link href="WebDev">Web Development</Nav.Link>
+            <Nav.Link href="/WebDev">Web Development</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
