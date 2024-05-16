@@ -10,7 +10,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={ <Landing/> } />
-        <Route path="/cysec" element={ <Cysec/> } />
+        <Route path="/Cysec" element={ <Cysec/> } />
         <Route path="/WebDev" element={ <WebDev/> } />
       </Routes>
     </div>
