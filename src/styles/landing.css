@@ -1,0 +1,46 @@
+@import url("./base.css");
+
+.typing h1 {
+  overflow: hidden;
+  border-right: 0.15em solid var(--accentcolor);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.10em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  70% {
+    border-color: var(--accentcolor);
+  }
+}
+
+#profile_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5rem solid rgba(90, 89, 89, 0.468);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profile_photo img{
+    width:275px;
+    position: relative;
+    left: 1.8rem;
+}
