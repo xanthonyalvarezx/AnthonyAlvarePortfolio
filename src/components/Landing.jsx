@@ -14,7 +14,7 @@ export default function Landing() {
           <img src={portfolio_image} alt="Anthony Alvarez" />
         </div>
         <div>
-          <p>
+          <p id="headline">
             My Name is Anthony Alvarez. I am a web developer and beginner cyber
             security analyst.
             <br />
@@ -25,7 +25,7 @@ export default function Landing() {
             <Accordion.Item eventKey="0">
               <Accordion.Header>My Journey</Accordion.Header>
               <Accordion.Body>
-                <p>
+                <p className="accordion-text">
                   My journey into the tech world began in 2020, right in the
                   midst of the pandemic. At the time, I was working in a
                   warehouse, but I felt a strong pull towards the tech industry.
@@ -37,7 +37,7 @@ export default function Landing() {
                   career in tech full-time. So, I left my warehouse job and
                   devoted myself entirely to my studies.
                 </p>
-                <p>
+                <p className="accordion-text">
                   After a year of intense learning, I graduated with top marks
                   and earned a certificate in web development. The bootcamp
                   covered everything from the MERN stack to Python with Django.
@@ -48,7 +48,7 @@ export default function Landing() {
                   an environment where we all learned from each other and grew
                   together.
                 </p>
-                <p>
+                <p className="accordion-text">
                   Within a year, my hard work paid off, and I was promoted from
                   Junior Developer to Developer. Unfortunately, recent funding
                   issues led to a layoff at the company. Despite this setback,
@@ -64,7 +64,7 @@ export default function Landing() {
             <Accordion.Item eventKey="1">
               <Accordion.Header>What I Offer</Accordion.Header>
               <Accordion.Body>
-              With my motivated demeanor and unwavering growth mindset, I bring a dynamic energy to any team. As a firm believer in collaboration and collective success, I naturally excel as a team player, leveraging my skills and insights to contribute effectively towards common goals. My commitment to excellence ensures that I consistently strive to surpass expectations in every endeavor, driven by a passion for continuous improvement. Detail-oriented and meticulously organized, I approach tasks with a thoroughness that ensures accuracy and precision in all aspects of my work. Moreover, as a self-starter, I proactively identify opportunities for innovation and take initiative to implement solutions, demonstrating my ability to adapt and thrive in dynamic environments. With these attributes, I am poised to make significant contributions to any company, facilitating growth, efficiency, and success.
+             <p className="accordion-text"> With my motivated demeanor and unwavering growth mindset, I bring a dynamic energy to any team. As a firm believer in collaboration and collective success, I naturally excel as a team player, leveraging my skills and insights to contribute effectively towards common goals. My commitment to excellence ensures that I consistently strive to surpass expectations in every endeavor, driven by a passion for continuous improvement. Detail-oriented and meticulously organized, I approach tasks with a thoroughness that ensures accuracy and precision in all aspects of my work. Moreover, as a self-starter, I proactively identify opportunities for innovation and take initiative to implement solutions, demonstrating my ability to adapt and thrive in dynamic environments. With these attributes, I am poised to make significant contributions to any company, facilitating growth, efficiency, and success.</p>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

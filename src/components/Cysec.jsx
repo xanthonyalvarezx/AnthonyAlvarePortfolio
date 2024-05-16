@@ -6,13 +6,13 @@ import chmod from "../assets/chmod-linux.png";
 export default function Cysec() {
   return (
     <>
-      <div className="d-flex flex-column">
+      <div className="d-flex flex-column gap-3">
         <div className="text-center">
           <h1>My Cyber security training</h1>
         </div>
-        <div className="d-flex flex-wrap flex-lg-nowrap">
+        <div className="d-flex flex-wrap gap-3 flex-lg-nowrap">
           <div className="ms-2">
-            <img src={CysecImage} alt="cyber security" width="800px" />
+            <img src={CysecImage} alt="cyber security" width="100%" />
           </div>
           <div className="px-5">
             <p>
@@ -40,7 +40,7 @@ export default function Cysec() {
         </div>
         <div
           id="projects"
-          className="my-5 py-3 d-flex flex-wrap justify-content-around"
+          className="my-5 p-2 d-flex flex-wrap gap-5 justify-content-around"
         >
           <div className="text-center">
             <h5>Wireshark malicious IP scanner</h5>
@@ -54,8 +54,8 @@ export default function Cysec() {
                 className="ms-2"
                 src={fileCompare}
                 alt="File comparison script"
-                height={"800px"}
-                width={"800px"}
+                height={"100%"}
+                width={"100%"}
               />
             </a>
           </div>
@@ -65,8 +65,8 @@ export default function Cysec() {
               className="ms-2"
               src={incidentReport}
               alt="incident report"
-              height={"800px"}
-              width={"800px"}
+              height={"100%"}
+              width={"100%"}
               style={{ border: "1px solid black" }}
             />
           </div>
@@ -76,8 +76,8 @@ export default function Cysec() {
               className="ms-2"
               src={chmod}
               alt="permission control with chmod"
-              height={"800px"}
-              width={"800px"}
+              height={"100%"}
+              width={"100%"}
               style={{ border: "1px solid black" }}
             />
           </div>
@@ -86,17 +86,17 @@ export default function Cysec() {
           <div className="text-center mb-5">
             <h3>Certifications</h3>
           </div>
-          <div className="d-flex flex-wrap justify-content-around mb-3">
-            <div className="ms-3">
+          <div className="d-flex flex-wrap justify-content-between mb-3">
+            <div className="ms-3 w-50">
               <a
-                href="https://coursera.org/verify/M3NSSJHQAVDQ"
+                href="https://www.coursera.org/account/accomplishments/professional-cert/UKLW48FLEVJ6"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <img 
                   src={courseraCert}
                   alt="certification from courdera in cyber security"
-                  width="50%"
+                  width="100%"
                   style={{ border: "1px solid black" }}
                 />
               </a>

@@ -27,6 +27,9 @@
     border-color: var(--accentcolor);
   }
 }
+.accordion-text{
+  font-size: 1rem;
+}
 
 #profile_photo{
     display: flex;
