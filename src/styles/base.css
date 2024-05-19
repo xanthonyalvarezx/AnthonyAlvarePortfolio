@@ -8,6 +8,11 @@ html {
   margin-right: calc(-1 * (100vw - 100%));
 }
 
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;

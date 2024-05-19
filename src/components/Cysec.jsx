@@ -26,7 +26,7 @@ export default function Cysec() {
               mitigate such threats.
             </p>
             <p>
-              My path so far has led my to gain a cerificate in cybersecurity
+              My path so far has led me to gain a cerificate in cybersecurity
               from Google through Coursera online. I have studied for and am in
               the process of completing my CompTia Security + exam. I also Have
               began to gain experience in Python programming language and tools
