@@ -13,7 +13,7 @@ export default function WebDev() {
         <div id="header-text-div" className="text-center">
           <div id="header-text">
          <div className="text-cont">
-              <h1>Web Development</h1>
+             <div> <h1>Web Development</h1></div>
              <div>
                 <p>
                   Web Development was my initial foray into technology. I quickly
