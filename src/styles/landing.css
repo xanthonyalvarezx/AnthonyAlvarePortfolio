@@ -4,7 +4,7 @@
   overflow: hidden;
   border-right: 0.15em solid var(--accentcolor);
   white-space: nowrap;
-  margin: 0 auto;
+  margin-top:10vh ;
   letter-spacing: 0.10em;
   animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -46,4 +46,5 @@
     width:275px;
     position: relative;
     left: 1.8rem;
+    z-index: -1;
 }
