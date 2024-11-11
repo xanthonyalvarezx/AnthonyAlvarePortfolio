@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8259a458.css",
+    "main.js": "/static/js/main.67b4ce99.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/rossumsMenu.webm": "/static/media/rossumsMenu.1b040259365cdc746ac6.webm",
+    "static/media/photo_wall_assessment.webm": "/static/media/photo_wall_assessment.f9210091b0446fab9205.webm",
+    "static/media/rossumsMenu.png": "/static/media/rossumsMenu.773052cc393d5ad2d020.png",
+    "static/media/portfolio_image.jpg": "/static/media/portfolio_image.f68ed5dca2832aa18c71.jpg",
+    "static/media/photowall.png": "/static/media/photowall.22e0818f6a9916f5b311.png",
+    "static/media/Coursera_cert.jpg": "/static/media/Coursera_cert.bb2550aea82b6e54937d.jpg",
+    "static/media/Hacking-And-Cyber-Security-129294-pixahive.jpg": "/static/media/Hacking-And-Cyber-Security-129294-pixahive.bc44f6bb59e53232702d.jpg",
+    "static/media/chmod-linux.png": "/static/media/chmod-linux.93f2e845e2c42952a39d.png",
+    "static/media/computer-1209641_1280.jpg": "/static/media/computer-1209641_1280.233f5801eb467e77a752.jpg",
+    "static/media/automate_with_javascript.png": "/static/media/automate_with_javascript.bf9e1c9dab7ab0e37f31.png",
+    "static/media/incident_report.png": "/static/media/incident_report.ff9743b06b50676668b0.png",
+    "static/media/wiresharkfilecompare.png": "/static/media/wiresharkfilecompare.2029ee6878f5c1376fd3.png",
+    "static/media/webdevcert.jpeg": "/static/media/webdevcert.d89b1657cab020b8c8e4.jpeg",
+    "index.html": "/index.html",
+    "main.8259a458.css.map": "/static/css/main.8259a458.css.map",
+    "main.67b4ce99.js.map": "/static/js/main.67b4ce99.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8259a458.css",
+    "static/js/main.67b4ce99.js"
+  ]
+}
