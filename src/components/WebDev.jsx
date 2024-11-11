@@ -6,26 +6,35 @@ import rossumsMenu from "../assets/rossumsMenu.png";
 import automateWithJS from "../assets/automate_with_javascript.png";
 import "../styles/webDev.css";
 
+/**
+ * This fuction displays text and images for projects in the web development section of the web page.
+ * 
+ * @returns html 
+ */
+
 export default function WebDev() {
   return (
     <>
       <div className="d-flex flex-column ">
         <div id="header-text-div" className="text-center">
           <div id="header-text">
-         <div className="text-cont">
-             <div> <h1>Web Development</h1></div>
-             <div>
+            <div className="text-cont">
+              <div>
+                <h1>Web Development</h1>
+              </div>
+              <div>
                 <p>
-                  Web Development was my initial foray into technology. I quickly
-                  developed an interest in the logical processes of coding to solve
-                  problems and was captivated by transforming ideas into tangible,
-                  visible creations. The thrill of resolving persistent bugs and
-                  implementing new concepts fuels my motivation to continuously
-                  learn and enhance my development skills.My motivation, drive, and
-                  growth mindset will make me a valuable asset to any team.
+                  Web Development was my initial foray into technology. I
+                  quickly developed an interest in the logical processes of
+                  coding to solve problems and was captivated by transforming
+                  ideas into tangible, visible creations. The thrill of
+                  resolving persistent bugs and implementing new concepts fuels
+                  my motivation to continuously learn and enhance my development
+                  skills.My motivation, drive, and growth mindset will make me a
+                  valuable asset to any team.
                 </p>
-             </div>
-         </div>
+              </div>
+            </div>
           </div>
         </div>
         <hr />

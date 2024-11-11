@@ -1,7 +1,12 @@
 import "../styles/landing.css";
 import Accordion from "react-bootstrap/Accordion";
-
 import portfolio_image from "../assets/portfolio_image.jpg";
+
+/**
+ * This fuction displays text and images for projects in the landing section of the web page.
+ *
+ * @returns html
+ */
 
 export default function Landing() {
   return (
@@ -64,7 +69,25 @@ export default function Landing() {
             <Accordion.Item eventKey="1">
               <Accordion.Header>What I Offer</Accordion.Header>
               <Accordion.Body>
-             <p className="accordion-text"> With my motivated demeanor and unwavering growth mindset, I bring a dynamic energy to any team. As a firm believer in collaboration and collective success, I naturally excel as a team player, leveraging my skills and insights to contribute effectively towards common goals. My commitment to excellence ensures that I consistently strive to surpass expectations in every endeavor, driven by a passion for continuous improvement. Detail-oriented and meticulously organized, I approach tasks with a thoroughness that ensures accuracy and precision in all aspects of my work. Moreover, as a self-starter, I proactively identify opportunities for innovation and take initiative to implement solutions, demonstrating my ability to adapt and thrive in dynamic environments. With these attributes, I am poised to make significant contributions to any company, facilitating growth, efficiency, and success.</p>
+                <p className="accordion-text">
+                  {" "}
+                  With my motivated demeanor and unwavering growth mindset, I
+                  bring a dynamic energy to any team. As a firm believer in
+                  collaboration and collective success, I naturally excel as a
+                  team player, leveraging my skills and insights to contribute
+                  effectively towards common goals. My commitment to excellence
+                  ensures that I consistently strive to surpass expectations in
+                  every endeavor, driven by a passion for continuous
+                  improvement. Detail-oriented and meticulously organized, I
+                  approach tasks with a thoroughness that ensures accuracy and
+                  precision in all aspects of my work. Moreover, as a
+                  self-starter, I proactively identify opportunities for
+                  innovation and take initiative to implement solutions,
+                  demonstrating my ability to adapt and thrive in dynamic
+                  environments. With these attributes, I am poised to make
+                  significant contributions to any company, facilitating growth,
+                  efficiency, and success.
+                </p>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>
