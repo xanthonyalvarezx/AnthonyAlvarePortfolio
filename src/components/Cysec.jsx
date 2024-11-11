@@ -3,13 +3,6 @@ import fileCompare from "../assets/wiresharkfilecompare.png";
 import incidentReport from "../assets/incident_report.png";
 import courseraCert from "../assets/Coursera_cert.jpg";
 import chmod from "../assets/chmod-linux.png";
-
-/**
- * This fuction displays text and images for projects in the cybersecurity section of the web page.
- *
- * @returns html
- */
-
 export default function Cysec() {
   return (
     <>
@@ -50,10 +43,7 @@ export default function Cysec() {
           className="my-5 p-2 d-flex flex-wrap gap-5 justify-content-around"
         >
           <div className="text-center">
-            <h5>
-              Wireshark malicious IP scanner (click image for source code and
-              use instructions)
-            </h5>
+            <h5>Wireshark malicious IP scanner</h5>
 
             <a
               href="https://github.com/XalvarezX/wireshark-log-Search"
@@ -103,7 +93,7 @@ export default function Cysec() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <img 
                   src={courseraCert}
                   alt="certification from courdera in cyber security"
                   width="100%"
