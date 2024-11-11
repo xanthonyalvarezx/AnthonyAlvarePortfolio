@@ -11,7 +11,7 @@ status = 200
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\JasperAnonymouse\\portfolio\\my-portfolio\\build"
+publish = "C:\\Users\\JasperAnonymouse\\portfolio\\my-portfolio"
 publishOrigin = "ui"
 command = "npm run build"
 commandOrigin = "ui"
