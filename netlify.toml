@@ -1,0 +1,31 @@
+plugins = []
+headers = []
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\JasperAnonymouse\\portfolio\\my-portfolio"
+publishOrigin = "ui"
+command = "npm run build"
+commandOrigin = "ui"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
