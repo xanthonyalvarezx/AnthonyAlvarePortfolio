@@ -43,7 +43,10 @@ export default function Cysec() {
           className="my-5 p-2 d-flex flex-wrap gap-5 justify-content-around"
         >
           <div className="text-center">
-            <h5>Wireshark malicious IP scanner</h5>
+            <h5>
+              Wireshark malicious IP scanner(Click image for source code and use
+              instructions)
+            </h5>
 
             <a
               href="https://github.com/XalvarezX/wireshark-log-Search"
@@ -93,7 +96,7 @@ export default function Cysec() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img 
+                <img
                   src={courseraCert}
                   alt="certification from courdera in cyber security"
                   width="100%"
