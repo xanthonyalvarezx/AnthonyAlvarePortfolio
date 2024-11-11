@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 import Landing from "./components/Landing";
 import WebDev from "./components/WebDev";
 import Cysec from "./components/Cysec";
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <NavigationBar />
       <Routes>
-        <Route path="/" element={ <Landing/> } />
-        <Route path="/Cysec" element={ <Cysec/> } />
-        <Route path="/WebDev" element={ <WebDev/> } />
+        <Route path="/" element={<Landing />} />
+        <Route path="/Cysec" element={<Cysec />} />
+        <Route path="/WebDev" element={<WebDev />} />
       </Routes>
     </div>
   );
